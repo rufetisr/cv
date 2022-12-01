@@ -21,7 +21,8 @@
   flex-wrap: wrap;
 }
 .section {
-  background-color: blueviolet;
+  background-color: transparent;
+  border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
   font-size: large;
