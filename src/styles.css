@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.cv > * {
+  font-family: sans-serif;
+}
+
+.cv {
+  background: linear-gradient(#e66465, #9198e5);
+  padding: 10px;
+}
+
+.section-head {
+  text-align: center;
+}
+.div-section {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.section {
+  background-color: blueviolet;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: large;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.profile {
+  border: 1px solid chartreuse;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: fill;
+}
